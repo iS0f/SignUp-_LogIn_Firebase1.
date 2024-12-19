@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <CheckBox
+        android:id="@+id/subjectCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.5"
+        android:scaleY="0.5" />
+
+    <TextView
+        android:id="@+id/subjectName"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingStart="5dp"
+        android:text="Subject Name"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/subjectCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credits"
+        android:textSize="11sp"
+        android:paddingStart="8dp" />
+</LinearLayout>
